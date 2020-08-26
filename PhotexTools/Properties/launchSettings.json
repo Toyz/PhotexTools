@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "PhotexTools": {
+      "commandName": "Project",
+      "commandLineArgs": "d:\\games\\hellbender\\system\\GAME.POD d:\\games\\hellbender\\system\\output"
+    }
+  }
+}
