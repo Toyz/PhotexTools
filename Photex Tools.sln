@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.30413.136
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PODReader", "PhotexTools\PODReader.csproj", "{A26B6617-B49D-4891-81DA-70AA66E8862A}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tools", "tools", "{721280DF-6CEC-4A84-B0AE-376E8F1A4836}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhotexEngine", "Photex\PhotexEngine.csproj", "{ECC9ACBC-5AE8-4A41-98AF-DC819F6AB2E6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,9 +19,16 @@ Global
 		{A26B6617-B49D-4891-81DA-70AA66E8862A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A26B6617-B49D-4891-81DA-70AA66E8862A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A26B6617-B49D-4891-81DA-70AA66E8862A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ECC9ACBC-5AE8-4A41-98AF-DC819F6AB2E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECC9ACBC-5AE8-4A41-98AF-DC819F6AB2E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECC9ACBC-5AE8-4A41-98AF-DC819F6AB2E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECC9ACBC-5AE8-4A41-98AF-DC819F6AB2E6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A26B6617-B49D-4891-81DA-70AA66E8862A} = {721280DF-6CEC-4A84-B0AE-376E8F1A4836}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0AB993C5-596B-4D33-8C93-6D715E00ED85}
